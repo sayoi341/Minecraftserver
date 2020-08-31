@@ -1,0 +1,56 @@
+/*メイン部分*/
+main{
+  height: 1050px;
+  margin:0px;
+  color:#000000;
+  background-color:#d1d1d1;
+}
+
+/*メイン部分を大きなブロックとし、左の写真、右の更新履歴の位置調整をする*/
+.blocks{
+  margin:20px auto;
+  display: flex;
+  width: 1240px;
+}
+
+/*写真の枠*/
+.watching{
+  height: 850px;
+  width: 800px;
+  margin: 0px ;
+  padding:0px 20px 0px;
+  background-color: #ffffff;
+  float: left;
+  clear: left;
+}
+
+.watching h2{
+  font-size:25px;
+  padding: 10px 500px 10px 10px;
+  font-family: cursive;
+  border-bottom:2px solid#93a182;
+}
+
+.watching img{
+  padding:1rem;
+  height:350px;
+  width: 350px;
+  transition: all 0.1s ease 0s;
+}
+
+.watching img:hover{
+  filter: blur(3px);
+}
+
+/*よこのあれ*/
+.sidehistory{
+  margin-left: 40px;
+  width: 400px;
+  height: 850px;
+  float: left;
+  background-color: #ffffff;
+}
+
+.sidehistory li{
+  list-style: none;
+}

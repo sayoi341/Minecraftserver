@@ -1,0 +1,68 @@
+*{
+    margin:0px;
+    padding: 0px;
+}
+
+body{
+    margin:0px;
+    padding: 0px;
+    background-color: #d1d1d1;
+}
+
+header{
+    height: 130px;
+    width: 1920px;
+    background-color:#024a1c;
+    margin: 0px;
+}
+
+/*くそでかみだしくん*/
+
+#bigname{
+    text-decoration: none;
+    color: #c9ab53;
+    padding:4rem 0px 0px;
+    margin:4rem 3rem 0rem;
+    border-bottom:solid 0.2rem #c9ab53;
+    font-size: 2.3rem;
+    transition: all 0.2s ease 0s;
+}
+
+#bigname:hover{
+    padding:4rem 2rem 0rem;
+    margin-left:1rem;
+}
+
+/*上のリンクたち*/
+.header-links{
+    float: left;
+    padding:20px 0px 0px;
+    margin:0px 30px 10px;
+    list-style: none;
+    border-bottom: 3px solid #ffffff;
+    transition: all 0.2s ease 0s;
+}
+
+.header-links:hover{
+    padding:20px 20px 0px;
+    margin:0px 10px 10px;
+}
+
+.header-links a{
+    text-decoration: none;
+    color: #ffffff;
+    font-weight: normal;
+}
+
+/*フッター*/
+footer{
+    height: 100px;
+    width:1920px;
+    background-color: #333c5e;
+}
+
+footer a{
+    color: #fff;
+    margin: 20px;
+    padding: 30px;
+}
