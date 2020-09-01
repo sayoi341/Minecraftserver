@@ -35,6 +35,6 @@ Mininame.insertBefore(linakami4, null);
 let footer = document.getElementById('footer');
 
 let twitter = document.createElement('h2');
-twitter.innerHTML = '<a href="https://twitter.com/_Emiya_Saber"target="_blank" rel="noopener noreferrer">twitter</a>';
+twitter.innerHTML = '<a href="https://twitter.com/_Emiya_Saber" target="_blank" rel="noopener noreferrer">twitter</a>';
 
 footer.insertBefore(twitter, null);
